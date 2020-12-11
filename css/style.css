@@ -51,7 +51,7 @@ body {
     -ms-flex: 1;
     flex: 1;
     background-color: white;
-  
+
 }
 
 .right {
@@ -60,7 +60,7 @@ body {
     -webkit-box-flex: 500px;
     -ms-flex: 500px;
     flex: 1050px;
-
+    background: #E5E5E5;
 }
 
 .logo_class {
@@ -121,7 +121,7 @@ p {
 table {
     border-collapse: collapse;
     margin: 0px 36px 17px 25px;
-   
+
 }
 
 th {
@@ -233,7 +233,7 @@ select {
     appearance: none;
     background-image: url(../images/dropdown-symbol.png);
     background-repeat: no-repeat;
-    background-position: right;    
+    background-position: right;
 }
 
 .select_Dropdown {
@@ -257,10 +257,8 @@ select {
     color: #676767;
 }
 
-.image_dropdown {
- 
-    
-}
+.image_dropdown {}
+
 .div_Submit {
     text-align: center;
     margin: 50px;
@@ -275,13 +273,14 @@ select {
     color: white;
     font-family: saira-regular;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #F3CABB;
     width: 100px;
     border: 1px solid white;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #b1988f;
     color: black
 }
